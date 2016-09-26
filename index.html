@@ -2,9 +2,220 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>GitHub Pages</title>
+    <title>Portfolio - Bill Hefty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
-  <body>
-    <h1>Bill Hefty</h1>
-  </body>
+  <!-- Design inspriation taken from Andrew Charlebois: http://andrewcharlebois.com/ -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#top">portfolio(BH)</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about-me">About Me<span class="sr-only">(current)</span></a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <div class="content">
+      <div id="top" class="header">
+        <span>creating | learning</span>
+        <a href="#about-me"><i class="fa fa-arrow-circle-down bounce"></i></a>
+      </div>
+    </div>
+    <div class="content">
+      <div id="about-me" class="about row">
+        <span><h1>About Me</h1></span>
+        <hr class="hr-title" />
+        <p>
+          <img src="http://res.cloudinary.com/bhefty/image/upload/v1473814994/nychead_rcjqkj.png" alt="Bill Hefty" class="img-thumbnail selfie-pic" />
+        </p>
+        <br />
+        <br />
+        <p>
+          My name is Bill Hefty and I'm a budding Front End Developer. I've had upwards of 5 years experience as an IT professional dealing in all aspects between desktop tech support to video network solutions. This portfolio page aims at keeping track of my progress as I continue my track on web development.
+        </p>
+      </div>
+    </div>
+    <div class="content">
+      <div id="skills" class="skills row">
+        <span><h1>Skills</h1></span>
+        <hr class="hr-title" />
+        <p>
+          I aim to be constantly improving upon my skillset by employing best practices in my code. I always strive to create clean user-friendly designs to achieve optimal interfaces which are a joy to use. Keeping up to date with the latest development practices
+          and technologies, I'm able to design modern webpages that scale to all devices.
+        </p>
+        <br /><br />
+        <div class="badges row">
+          <div>
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML5" class="skill-badge" />
+            <br /><strong>HTML5</strong>
+          </div>
+          <br />
+          <div>
+            <img src="http://scottace.com/img/css3-icon.png" alt="CSS3" class="skill-badge" />
+            <br /><strong>CSS3</strong>
+          </div>
+          <br />
+          <div>
+            <img src="https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/1906/large/1409882442/javascript-badge.png" alt="JavaScript" class="skill-badge" />
+            <br /><strong>JavaScript</strong>
+          </div>
+          <br />
+          <div>
+            <img src="https://assets.toptal.io/uploads/blog/category/logo/291/react.png" alt="React" class="skill-badge" />
+            <br /><strong>React</strong>
+          </div>
+          <br />
+          <div>
+            <img src="https://avatars0.githubusercontent.com/u/70142?v=3&s=400" alt="jQuery" class="skill-badge" />
+            <br /><strong>jQuery</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div id="projects" class="projects row">
+        <span><h1>Projects</h1></span>
+        <hr class="hr-title" />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>Simon Says Game</h2>
+            <p>
+              The classic game revisioned for web! Try to get all the way to round 20 to win. Make it a challenge by enabling 'Strict' mode. Complete with sounds and flashing lights.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/NRGYwO/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473814008/simon-says_tjllpp.png" alt="Simon Says" class="project-img" /></a>
+          </div>
+        </div>
+        <hr />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>Calculator - Powered by JavaScript</h2>
+            <p>
+              A simple calculator built with the power of JavaScript and JQuery. One of the first web development projects I've ever done.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/kkaKLb/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473814008/Screen_Shot_2016-09-11_at_11.12.57_PM-macbookgrey-front_voxw8w.png" alt="Calculator" class="project-img" /></a>
+          </div>
+        </div>
+        <hr />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>Pomodoro Timer</h2>
+            <p>
+              Tamayto, tamahto, pomodoro. Whatever you choose to call this timer, it's goal is to keep you on task while breaking your work sessions up with break periods.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/RGNaOx/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473814009/pomodoro-clock_fl4mzr.png" alt="Pomodoro Timer" class="project-img" /></a>
+          </div>
+        </div>
+        <hr />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>Tic-Tac-Toe</h2>
+            <p>
+              Yet another classic game brought to the web. Play against an AI (just try to win...) or against a friend! One of my first apps with animations.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/vXNWAW/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473814009/tic-tac-toe_hwlnlf.png" alt="Tic-Tac-Toe" class="project-img" /></a>
+          </div>
+        </div>
+        <hr />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>twitchTV Streams</h2>
+            <p>
+              Quick at-a-glance look that shows the current status of a handful of Twitch channels. Sort by online/offline and view what they are currently streaming.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/yJmjyE/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473816817/twitch-tv_ueplap.png" alt="TwitchTV Streams" class="project-img" /></a>
+          </div>
+        </div>
+        <hr />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>Wikipedia Search</h2>
+            <p>
+              Search top hits from Wikipedia with this web-app. Alternatively, click the button for a random article!
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/KrOvJE/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473817002/wikipedia-search_vrelr6.png" alt="Wikipedia Search" class="project-img" /></a>
+          </div>
+        </div>
+        <hr />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>Weather App</h2>
+            <p>
+              This will get the current weather conditions for your location and display the temperature, condition outside, and a neat animation to go along with it all!
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/VjobNE/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473814017/weather-app_lboxjb.png" alt="Weather App" class="project-img" /></a>
+          </div>
+        </div>
+        <hr />
+        <div class="row project-row">
+          <div class="col-md-6">
+            <h2>Random Quotes</h2>
+            <p>
+              This app will allow you to refresh the content to show a new quote as well as give you the ability to tweet it out! One of my first API driven apps.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <a href="http://codepen.io/bhefty/full/BzXWOx/" target="_blank"><img src="http://res.cloudinary.com/bhefty/image/upload/c_crop,h_1200,w_2000/v1473814009/random-quote_tqcvob.png" alt="Random Quote Generator" class="project-img" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div id="contact-me" class="contact row">
+        <span><h1>Contact Me</h1></span>
+        <hr class="hr-title" />
+        <br /><br />
+        <div class="row">
+          <div class="col-md-3 contact-social"><a href="https://twitter.com/billhefty" target="_blank"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a></div>
+          <div class="col-md-3 contact-social"><a href="https://github.com/bhefty" target="_blank"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a></div>
+          <div class="col-md-3 contact-social"><a href="https://www.linkedin.com/in/bill-hefty-6b973689" target="_blank"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></div>
+          <div class="col-md-3 contact-social"><a href="https://www.freecodecamp.com/bhefty" target="_blank"><i class="fa fa-fire fa-5x" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"/>
+  <script type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/>
+  <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"/>
+  <script type="text/javascript" href="./js/index.js" />
+
+</body>
 </html>
